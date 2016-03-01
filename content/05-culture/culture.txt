@@ -1,0 +1,40 @@
+header: A Day in the Life
+
+----
+subheader: We believe People + Places + Practices = Outcomes. Explore what some of the equation looks and feels like.
+
+----
+
+topleftheader: A Day in the Life
+
+----
+
+topleftbody: We believe People + Places + Practices = Outcomes. Explore what some of the equation looks and feels like.
+
+----
+
+topleftlink: A Year in the Life
+
+----
+
+midbottomheader: Places
+
+----
+
+midbottombody: Spontaneous meetings anywhere and everywhere. Workspaces that adapt and pivot as you do. Comfy couches for quiet concentration, and hundreds of square feet of whiteboards. In spaces built for collaboration, our designers learn, practice, and teach new ways of thinking about design.
+
+----
+
+midbottomlink: View Our Studios
+
+----
+
+toprightheader: IBM Design Language
+
+----
+
+toprightbody: Explore the guidelines for making delightful products and experiences. From colors to code, create beautiful software with visceral impact. This is how we bring designs to life with bold elements and engaging interactions.
+
+----
+
+toprightlink: IBM Design Language

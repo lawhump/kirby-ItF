@@ -1,0 +1,101 @@
+header: Before You Start
+
+----
+
+subheader: We have the Why, the What, and the How that'll make Day 1 seamless and comfortable
+
+----
+
+section1header: Identify
+
+----
+
+section1subheader: Get to know the benefit package best for you and prepare your tax info accordingly.
+
+----
+
+section1item1header: Pick your Benefits
+
+----
+
+section1item1body: IBM Benefits rock and we can’t wait to take care of you! We know that the current brochure can be confusing and in need of some serious Design Thinking...
+
+----
+
+section1item1link: Explore IBM’s Benefit Options
+
+----
+
+section1item2header: Taxes
+
+----
+
+section1item2body: Exceptions, exemptions, and allowances... Make sure you're up to date before your first day.
+
+----
+
+section1item2link: Update Your Tax Info
+
+----
+
+section2header: Decide
+
+----
+
+section2subheader: Who's helping you move, where are we mailing your info, and who's saving you when the caffeine can't?
+
+----
+
+section2item1header: Relocation
+
+----
+
+section2item1body: (Yay moving party!) If you’re relocating, IBM’s trusted partner, Graebel, will contact you. If you haven’t heard from them yet, remain calm. It can take up to two weeks from the time you accepted your offer for them to reach out.
+
+----
+
+section2item2header: Mailing Address
+
+----
+
+section2item2body: Where do you want us to send you your first big paycheck? Have an address lined up to put that money in the bank. Cha-Ching!
+
+----
+
+section2item3header: Emergency Contact
+
+----
+
+section2item3body: Great food and good company might save you in theory... But when reality calls, who do we need to contact?
+
+----
+
+section3header: Prepare
+
+----
+
+section3subheader: Paying you is a priority and these are the things we'll need Day 1 to make it happen.
+
+----
+
+section3item1header: Passport
+
+----
+
+section3item1body: If you don’t have your **passport**, you’ll need at least two of three things: **driver's license**, **birth certificate** or **Social Security card**.
+
+----
+
+section3item2header: Proof of Graduation
+
+----
+
+section3item2body: If you graduated within the past two years we’ll need an **official transcript** from your Alma Mater (or a note from your Mother).
+
+----
+
+section3item3header: Banking Info
+
+----
+
+section3item3body: If having checks mailed to you isn’t your thing, have your **bank routing number** available so you can start bringing home the bacon.

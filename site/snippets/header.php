@@ -9,14 +9,25 @@
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
-  <?php echo css('assets/css/main.css') ?>
+  <?php echo css('assets/css/app.css') ?>
+  <?php echo css('assets/foundation-icons/foundation-icons.css') ?>
 
 </head>
-<body>
-
-  <header class="header cf" role="banner">
-    <a class="logo" href="<?php echo url() ?>">
-      <img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
-    </a>
-    <?php snippet('menu') ?>
-  </header>
+<body data-sticky-container>
+  <!-- Nav Bar -->
+  <div class="top-bar" data-sticky>
+    <div class="row" style="width: 100%;">
+      <div class="columns small-12 medium-3">
+        <a href="#hello"><img src="assets/images/ibm_pictoral_logo.png" width="140"></a>
+      </div>
+      <div class="columns small-12 medium-9 top-bar-right right hide-for-small-only">
+        <ul class="menu" style="float: right;">
+          <li><a href="#todo">Tasks</a></li>
+          <li><a href="#in-the-life">About Us</a></li>
+          <li><a href="#inspired">Inspiration</a></li>
+          <li><a href="#feel-confused">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- /Nav Bar -->
