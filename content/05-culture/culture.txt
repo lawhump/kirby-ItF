@@ -5,36 +5,40 @@ subheader: We believe People + Places + Practices = Outcomes. Explore what some 
 
 ----
 
-topleftheader: A Day in the Life
+topleftheader: IBM Design Language
 
 ----
 
-topleftbody: We believe People + Places + Practices = Outcomes. Explore what some of the equation looks and feels like.
+topleftbody: Explore the guidelines for making delightful products and experiences. From colors to code, create beautiful software with visceral impact. This is how we bring designs to life with bold elements and engaging interactions.
 
 ----
 
-topleftlink: A Year in the Life
+topleftlink: IBM Design Language Guide
 
 ----
 
-midbottomheader: Places
+midbottomheader: Career
 
 ----
 
-midbottombody: Spontaneous meetings anywhere and everywhere. Workspaces that adapt and pivot as you do. Comfy couches for quiet concentration, and hundreds of square feet of whiteboards. In spaces built for collaboration, our designers learn, practice, and teach new ways of thinking about design.
+midbottombody: So where do you go from here? Upward and ever onward! Just as there is a path to becoming an IBM Fellow for entry-level software engineers, sellers, data scientists, researchers etc... there’s a path for designers too.
 
 ----
 
-midbottomlink: View Our Studios
+midbottomlink: A Year in the Life
 
 ----
 
-toprightheader: IBM Design Language
+toprightheader: IBM Design Thinking
 
 ----
 
-toprightbody: Explore the guidelines for making delightful products and experiences. From colors to code, create beautiful software with visceral impact. This is how we bring designs to life with bold elements and engaging interactions.
+toprightbody: Pretend this is a description of IBM Design Thinking!
 
 ----
 
-toprightlink: IBM Design Language
+toprightlink: IBM Design Thinking Guide
+
+----
+
+culturevideo: https://player.vimeo.com/video/137419283

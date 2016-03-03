@@ -21,9 +21,9 @@
               <h4><?php echo $data->topleftheader()->html() ?></h4>
               <p class="subheader"><?php echo $data->topleftbody()->html() ?></p>
               <hr>
-              <a href="https://www.ibm.com/design/blog-page.shtml?designcamp" target="_blank"><?php echo $data->topleftlink()->html() ?></a>
+              <a href="http://www.ibm.com/design/language/" target="_blank"><?php echo $data->topleftlink()->html() ?></a><br>
             </div>
-            <div id="career" class="large-12 small-12 columns hide-for-small-only" data-equalizer-watch>
+            <div id="language" class="large-12 small-12 columns hide-for-small-only" data-equalizer-watch>
               <div class="arrow-down"></div>
             </div>
           </div>
@@ -31,14 +31,14 @@
 
         <div class="small-12 medium-4 columns stacked-margin">
           <div class="row">
-            <div id="places" class="large-12 small-12 columns hide-for-small-only" data-equalizer-watch>
+            <div id="career" class="large-12 small-12 columns hide-for-small-only" data-equalizer-watch>
               <div class="arrow-up"></div>
             </div>
             <div class="large-12 small-12 columns life-blurb" data-equalizer-watch>
               <h4><?php echo $data->midbottomheader()->html() ?></h4>
               <p class="subheader"><?php echo $data->midbottombody()->html() ?></p>
               <hr>
-              <a href="http://www.ibm.com/design/studio.shtml" target="_blank"><?php echo $data->midbottomlink()->html() ?></a>
+              <a href="https://www.ibm.com/design/blog-page.shtml?designcamp" target="_blank"><?php echo $data->midbottomlink()->html() ?></a>
             </div>
           </div>
         </div>
@@ -49,11 +49,10 @@
               <h4><?php echo $data->toprightheader()->html() ?></h4>
               <p class="subheader"><?php echo $data->toprightbody()->html() ?></p>
               <hr>
-              <a href="http://www.ibm.com/design/language/" target="_blank"><?php echo $data->toprightlink()->html() ?></a><br>
-              <a href="http://www.ibm.com/design/thinking/" target="_blank">IBM Design Thinking Guide</a>
+              <a href="http://www.ibm.com/design/thinking/" target="_blank"><?php echo $data->toprightlink()->html() ?></a>
             </div>
 
-            <div id="language" class="large-12 small-12 columns hide-for-small-only" data-equalizer-watch>
+            <div id="thinking" class="large-12 small-12 columns hide-for-small-only" data-equalizer-watch>
               <div class="arrow-down"></div>
             </div>
           </div>
@@ -88,7 +87,7 @@
   <div class="row section-top align-center">
     <div class="columns small-12 large-10">
       <div class="flex-video widescreen vimeo">
-        <iframe src="https://player.vimeo.com/video/137419283" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="<?php echo $data->culturevideo()->html() ?>" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
     </div>
   </div>

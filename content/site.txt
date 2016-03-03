@@ -14,4 +14,8 @@ Keywords: Kirby, CMS, file-based
 
 ----
 
+Video: https://www.youtube.com/embed/39jtNUGgmd4
+
+----
+
 Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)

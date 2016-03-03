@@ -8,7 +8,7 @@
   </div>
 
   <div class="row header section-top">
-    <div class="columns small-12 medium-4 medium-offset-2">
+    <div class="columns small-12 medium-5 medium-offset-1">
       <h3>Slack</h3>
       <p class="subheader">Join the conversation! Create a free account and hit up our Talent Team on Slack.</p>
 
@@ -23,26 +23,26 @@
   </div>
 
   <div class="row header header-3">
-    <div class="columns small-10 medium-4 medium-offset-2">
+    <div class="columns small-10 medium-5 medium-offset-1">
       <h3>Talent Team</h3>
       <p class="subheader">If you have more personal questions, feel free to reach out directly to our Talent Team. They're here to help you.</p>
     </div>
   </div>
 
   <div class="row">
-    <div class="columns small-10 medium-4 medium-offset-2">
+    <div class="columns small-10 medium-4 medium-offset-1">
       <h4>Talent Development</h4>
     </div>
   </div>
 
 
   <div class="row round-image">
-    <div class="small-12 medium-4 medium-offset-2 columns team-info">
+    <div class="small-12 medium-5 medium-offset-1 columns team-info">
       <div class="row align-center">
-        <div class="small-6 medium-4 columns">
-          <img src="assets/images/anielatanase_360.jpg" alt="">
+        <div class="small-4 columns">
+          <img src="assets/images/headshots/amber.jpg" alt="">
         </div>
-        <div class="small-12 medium-8 columns">
+        <div class="small-8 columns">
           <h5>Amber Atkins</h5>
           Slack: @theambermeister
           <br>
@@ -50,12 +50,12 @@
         </div>
       </div>
     </div>
-    <div class="small-12 medium-4 columns team-info">
+    <div class="small-12 medium-5 columns team-info">
       <div class="row align-center">
-        <div class="small-6 medium-4 columns">
-          <img src="assets/images/catfincun_360.jpg" alt="">
+        <div class="small-4 columns">
+          <img src="assets/images/headshots/daniel.jpg" alt="">
         </div>
-        <div class="small-12 medium-8 columns">
+        <div class="small-8 columns">
           <h5>Daniel Khuen</h5>
           Slack: @danielkuehn
           <br>
@@ -63,12 +63,12 @@
         </div>
       </div>
     </div>
-    <div class="small-12 medium-4 medium-offset-2 columns team-info">
+    <div class="small-12 medium-5 medium-offset-1 columns team-info">
       <div class="row align-center">
-        <div class="small-6 medium-4 columns">
-          <img src="assets/images/catfincun_360.jpg" alt="">
+        <div class="small-4 columns">
+          <img src="assets/images/headshots/julie.jpg" alt="">
         </div>
-        <div class="small-12 medium-8 columns">
+        <div class="small-8 columns">
           <h5>Julie Johnson</h5>
           Slack: @juliejohnson
           <br>
@@ -76,12 +76,12 @@
         </div>
       </div>
     </div>
-    <div class="small-12 medium-4 columns team-info">
+    <div class="small-12 medium-5 columns team-info">
       <div class="row align-center">
-        <div class="small-6 medium-4 columns">
-          <img src="assets/images/catfincun_360.jpg" alt="">
+        <div class="small-4 columns">
+          <img src="assets/images/headshots/tiffany.jpg" alt="">
         </div>
-        <div class="small-12 medium-8 columns">
+        <div class="small-8 columns">
           <h5>Tiffany Shine</h5>
           Slack: @tiffanyshine
           <br>
@@ -91,33 +91,33 @@
     </div>
   </div>
 
-  <div class="row">
-    <div class="columns small-10 medium-4 medium-offset-2">
+  <div class="row section-top">
+    <div class="columns small-10 medium-4 medium-offset-1">
       <h4>Industry Recruiters</h4>
     </div>
   </div>
 
 
   <div class="row round-image">
-    <div class="small-12 medium-4 medium-offset-2 columns team-info">
+    <div class="small-12 medium-5 medium-offset-1 columns team-info">
       <div class="row align-center">
-        <div class="small-6 medium-4 columns">
-          <img src="assets/images/anielatanase_360.jpg" alt="">
+        <div class="small-4 columns">
+          <img src="assets/images/headshots/cat.jpg" alt="">
         </div>
-        <div class="small-12 medium-8 columns">
+        <div class="small-8 columns">
           <h5>Cat Fincun</h5>
-          Slack: @catfnicun
+          Slack: @catfincun
           <br>
           <a href="mailto:cfincun@us.ibm.com">cfincun@us.ibm.com</a>
         </div>
       </div>
     </div>
-    <div class="small-12 medium-4 columns team-info">
+    <div class="small-12 medium-5 columns team-info">
       <div class="row align-center">
-        <div class="small-6 medium-4 columns">
-          <img src="assets/images/catfincun_360.jpg" alt="">
+        <div class="small-4 columns">
+          <img src="assets/images/headshots/elissa.jpg" alt="">
         </div>
-        <div class="small-12 medium-8 columns">
+        <div class="small-8 columns">
           <h5>Elissa Dixit</h5>
           Slack: @elissadixit
           <br>
@@ -125,12 +125,12 @@
         </div>
       </div>
     </div>
-    <div class="small-12 medium-4 medium-offset-2 columns team-info">
+    <div class="small-12 medium-5 medium-offset-1 columns team-info">
       <div class="row align-center">
-        <div class="small-6 medium-4 columns">
-          <img src="assets/images/anielatanase_360.jpg" alt="">
+        <div class="small-4 columns">
+          <img src="assets/images/headshots/keli.jpg" alt="">
         </div>
-        <div class="small-12 medium-8 columns">
+        <div class="small-8 columns">
           <h5>Keli Crane</h5>
           Slack: @kcrane
           <br>
@@ -141,18 +141,18 @@
   </div>
 
   <div class="row section-top">
-    <div class="columns small-10 medium-4 medium-offset-2">
+    <div class="columns small-10 medium-5 medium-offset-1">
       <h4>University Recruiters</h4>
     </div>
   </div>
 
   <div class="row round-image">
-    <div class="small-12 medium-4 medium-offset-2 columns team-info">
+    <div class="small-12 medium-5 medium-offset-1 columns team-info">
       <div class="row align-center">
-        <div class="small-6 medium-4 columns">
-          <img src="assets/images/tiffanyshine_360.jpg" alt="">
+        <div class="small-4 columns">
+          <img src="assets/images/headshots/anna.jpg" alt="">
         </div>
-        <div class="small-12 medium-8 columns">
+        <div class="small-8 columns">
           <h5>Anna McCormick</h5>
           Slack: @annaruthless
           <br>
@@ -160,12 +160,12 @@
         </div>
       </div>
     </div>
-    <div class="small-12 medium-4 columns team-info">
+    <div class="small-12 medium-5 columns team-info">
       <div class="row align-center">
-        <div class="small-6 medium-4 columns">
-          <img src="assets/images/veronicaward_360.jpg" alt="">
+        <div class="small-4 columns">
+          <img src="assets/images/headshots/taylor.jpg" alt="">
         </div>
-        <div class="small-12 medium-8 columns">
+        <div class="small-8 columns">
           <h5>Taylor Speed</h5>
           Slack: @taylorspeed
           <br>

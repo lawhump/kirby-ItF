@@ -2623,7 +2623,7 @@ $(document).ready(function() {
   /* Initialize the countdown timer */
   if (personalInfo.startDate) {
     initializeClock("countdown", new Date(personalInfo.startDate));
-  } 
+  }
   else {
       document.getElementById('countdown').classList.add('hide');
   }
@@ -2632,7 +2632,9 @@ $(document).ready(function() {
 
 });
 
+var $top = $('.top-bar');
 $(document).on("scroll", onScroll);
+onScroll();
 
 $('.large').on('click', function(){
   stopped = false;
@@ -2687,7 +2689,7 @@ var utils = {
     },
 
     rangeIntersect: function(min0, max0, min1, max1) {
-        return Math.max(min0, max0) >= Math.min(min1, max1) && 
+        return Math.max(min0, max0) >= Math.min(min1, max1) &&
                Math.min(min0, max0) <= Math.max(min1, max1);
     },
 
@@ -2714,176 +2716,16 @@ var utils = {
 
 }
 
-$(window).resize(resize());
-
-canvas = document.getElementById("canvas");
-var context = canvas.getContext('2d');
-W = canvas.width = window.innerWidth;
-H = canvas.height = window.innerHeight;
-generatorStock=[];
-
-var frameId = 0.0;
-var stopped = false;
-
-function resize() {
-    W = canvas.width = window.innerWidth;
-    H = canvas.height = window.innerHeight;
-}
-
-
-var generator1 = new particleGenerator(W/2, H/1.5,0, 0, 100);
-
-gravity = 0.1;
-generator1.number = 100;
-friction = 0.99;
-
-colors = [
-  '#f44336', '#e91e63', '#9c27b0', '#673ab7', '#3f51b5',
-  '#2196f3', '#03a9f4', '#00bcd4', '#009688', '#4CAF50',
-  '#8BC34A', '#CDDC39', '#FFEB3B', '#FFC107', '#FF9800',
-  '#FF5722', '#795548'
-];
-
-function loadImage(url) {
-    var img = document.createElement("img");
-    img.src = url;
-    return img;
-}
-
-
-var mouse = {x: 0, y: 0};
-canvas.addEventListener('mousemove', function(e) {
-  mouse.x = e.pageX - this.offsetLeft;
-  mouse.y = e.pageY - this.offsetTop;
-}, false);
-    
-    
-function randomInt(min, max) {
-  return min + Math.random() * (max - min);
-}
-
-function clamp(value, min, max) {
-  return Math.min(Math.max(value, Math.min(min, max)), Math.max(min, max));
-}
-
-function particle(x, y,type) {
-  this.radius = randomInt(.2, 2);
-  this.x = x;
-  this.y = y;
-  this.vx = randomInt(-4, 4);
-  this.vy = randomInt(-10, -0);
-  this.type=type;
-  this.angle = utils.degreesToRads(randomInt(0,360));
-  this.anglespin=randomInt(-0.2,0.2);
-  this.color = colors[Math.floor(Math.random() * colors.length)];
-
-  this.rotateY=randomInt(0,1);
-}
-    
-    
-particle.prototype.update = function() {
-  this.x += this.vx;
-  this.y += this.vy;
-  this.vy += gravity;
-  this.vx *= friction;
-  this.vy *= friction;
-  this.radius -= .02;
-
-  if(this.rotateY < 1){
-    this.rotateY +=0.1;
-  }
-  else{
-    this.rotateY =-1;
-  }
-  
-  this.angle += this.anglespin;
-  
-  context.save();
-  context.translate(this.x,this.y);             
-  context.scale(1,this.rotateY);
-  context.rotate(this.angle);
-  context.beginPath();
-  context.fillStyle=this.color;
-  // drawStar(0, 0, 5, this.boxW, this.boxH);
-  context.fillRect(-5,-5,10,10);
-  context.fill();
-  context.closePath();
-  context.restore();
-
-
-  if(this.y>H+5 ){
-    this.vy *= -.5;
-  }
-  if(this.x>W|| this.x < 0){
-    this.vx *= -1;
-  }
-}
-
-function particleGenerator(x, y, w, h, number,text) {
-  // particle will spawn in this aera
-  this.x = x;
-  this.y = y;
-  this.w = w;
-  this.h = h;
-  this.number = number;
-  this.particles = [];
-  this.text=text;
-}
-
-particleGenerator.prototype.animate = function() {
-  
-  context.fillStyle="grey";
-  context.beginPath();
-  context.strokeRect(this.x, this.y, this.w, this.h);
-  context.font = "13px arial";
-  context.textAlign = "center";
-  context.closePath();
-  
-    if (this.particles.length < this.number) {
-      this.particles.push(new particle(clamp(randomInt(this.x, this.w+this.x),this.x,this.w+this.x),clamp(randomInt(this.y,this.h+this.y),this.y,this.h+this.y),this.text));
-    }
-
-    if (this.particles.length > this.number) {
-      this.particles.length=this.number;
-    }
-
-    for (var i = 0; i < this.particles.length; i++) {
-      p = this.particles[i];
-      p.update();
-      if (!stopped && p.y > H) {
-        //a brand new particle replacing the dead one
-        this.particles[i] = new particle(clamp(randomInt(this.x, this.w+this.x),this.x,this.w+this.x), 
-
-        clamp(randomInt(this.y,this.h+this.y),this.y,this.h+this.y),this.text);
-      }
-    }
-}
-
-function update() {
-  // context.globalAlpha=.5;
-  context.clearRect(0,0,W,H);
-  generator1.animate();
-
-  frameId = requestAnimationFrame(update);
-}
-
-function stop(animation) {
-  console.log('here');
-  stopped = true;
-  // cancelAnimationFrame(animation);
-}
-var $top = $('.top-bar');
-
 //smoothscroll
 $('a[href^="#"]').on('click', function (e) {
     e.preventDefault();
     $(document).off("scroll");
-    
+
     $('a').each(function () {
         $(this).removeClass('active');
     })
     $(this).addClass('active');
-  
+
     var target = this.hash,
         menu = target;
     $target = $(target);
@@ -2917,7 +2759,7 @@ function onScroll(event){
         }
     });
 }
-/* Thanks http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript */ 
+/* Thanks http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript */
 function getParameterByName(name) {
     name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
     var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
