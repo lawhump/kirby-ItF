@@ -1,9 +1,13 @@
-header: Welcome!
+Header: Welcome!
 
 ----
 
-body: **We know you’re excited to learn, hone your skills and tackle some challenging problems. You’re probably wondering, “Great, where do I start?! Throw it all at me!” That’s the spirit - welcome to the club, fellow studioer.**
+Body: **We know you’re excited to learn, hone your skills and tackle some challenging problems. You’re probably wondering, “Great, where do I start?! Throw it all at me!” That’s the spirit - welcome to the club, fellow studioer.**
 
 ----
 
-closing: **Below are some steps you need to take to maintain momentum going into your first day at IBM Design.**
+Closing: **Below are some steps you need to take to maintain momentum going into your first day at IBM Design.**
+
+----
+
+Title: welcome
