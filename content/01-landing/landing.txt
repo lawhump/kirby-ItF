@@ -1,5 +1,0 @@
-greeting: We can't wait to meet you!
-
-----
-
-button: Learn about IBM
